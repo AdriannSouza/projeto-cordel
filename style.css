@@ -6,11 +6,12 @@
 
 body {
     margin: 0;
+    text-align: center;
 }
 
 header {
-    background-color: black;
-    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.947);
+    padding: 35px;
     color: white;
     text-align: center;
 }
@@ -24,24 +25,30 @@ section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
+    text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.578);
 }
+
+section p {
+    font-size: 1.1em;
+}
+
 .paralax {
     background-color: lightgrey;
     background-image: url(imagens/background001.jpg);
     background-position: center center;
     box-shadow: 8px 5px 5px rgba(0, 0, 0, 0.668);
     background-attachment: fixed;
-    font-weight: bold;
     color: white;
+    font-weight: 600;
 }
 .paralaxb {
     background-color: lightgrey;
     background-image: url(imagens/background002.jpg);
-    background-position: center center;
+    background-position: right top;
     box-shadow: 8px 5px 5px rgba(0, 0, 0, 0.668);
     background-attachment: fixed;
-    font-weight: bold;
     color: white;
+    font-weight: 600;
 }
 
 a {
@@ -54,6 +61,16 @@ a:hover {
 }
 
 footer {
-    background-color: grey;
+    background-color: black;
     text-align: center;
+    color: white;
+    font-size: 0.8em;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: rgb(250, 202, 202);
 }
