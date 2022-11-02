@@ -36,7 +36,7 @@ section p {
     background-color: lightgrey;
     background-image: url(imagens/background001.jpg);
     background-position: center center;
-    box-shadow: 8px 5px 5px rgba(0, 0, 0, 0.668);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.537);
     background-attachment: fixed;
     color: white;
     font-weight: 600;
