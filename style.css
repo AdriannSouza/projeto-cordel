@@ -44,7 +44,7 @@ section p {
 .paralaxb {
     background-color: lightgrey;
     background-image: url(imagens/background002.jpg);
-    background-position: right top;
+    background-position: center center;
     box-shadow: 8px 5px 5px rgba(0, 0, 0, 0.668);
     background-attachment: fixed;
     color: white;
